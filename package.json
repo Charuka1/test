@@ -2,7 +2,7 @@
 "name": "MIZUKI-MD",    
 "version": "1.0.0",
 "scripts": {
-"start": "pm2 start index.js --deep-monitoring --attach --name zero-two",
+"start": "pm2 start index.js --deep-monitoring --attach --name MIZUKI-MD",
 "stop": "pm2 stop MIZUKI-MD",
 "restart": "git pull && npm stop && npm start",
 "stash": "git stash && git stash drop"
